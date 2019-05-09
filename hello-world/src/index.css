@@ -1,5 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Questrial";
+  color: aliceblue;
+  
+}
+.button {
+  background-color: rgb(74, 64, 88); /* Green */
+  border: none;
+  color: white;
+  padding: 4em 8em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: .5em;
+}
+
+.button1:hover {
+  background-color: rgb(136, 108, 113);
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(252, 252, 252);
+  border-radius: .5em;
+}
+
+.button2:hover {
+  background-color: rgb(89, 93, 94);
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: .5em;
+}
+
+.button3:hover {
+  background-color: rgb(126, 107, 110);
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: .5em;
+}
+
+.button4:hover {background-color: #4e4d4d;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(252, 252, 252);
+  border-radius: .5em;
+}
+
+.button5:hover {
+  background-color: rgb(136, 108, 113);
+  color: white;
 }
