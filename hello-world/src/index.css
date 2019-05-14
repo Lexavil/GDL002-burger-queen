@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Questrial|Sacramento|Poiret+One');
 
 body {
   margin: 0;
@@ -8,14 +8,15 @@ body {
   
 }
 .button {
+  font-family: "Poiret One";
   background-color: rgb(74, 64, 88); /* Green */
   border: none;
   color: white;
-  padding: 4em 8em;
+  padding: 2em 4em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.5em;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
