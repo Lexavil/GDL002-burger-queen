@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 
 
-class Saborcafe extends Component {
+class Sodaitaliana extends Component {
     constructor(props) {
       super(props);
-      this.state = {value: 'torrificado'};
+      this.state = {value: 'Soda Italiana de Durazno'};
   
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,12 +24,13 @@ class Saborcafe extends Component {
       return (
         <form onSubmit={this.handleSubmit}>
           <label>
-            Cafe:
+            Soda Italiana:
             <select value={this.state.value} onChange={this.handleChange}>
-              <option value="cafeAmericano">Cafe Americano</option>
-              <option value="torrificado">Cafe Torrificado</option>
-              <option value="italiano">Cappuccino Italiano</option>
-              <option value="expres">Esspreso</option>
+              <option value="Soda Italiana de Durazno">Soda italiana de Durazno</option>
+              <option value="Soda Italiana de Fresa">Soda italiana de Fresa</option>
+              <option value="Soda Italiana de Kiwi">Soda italiana de Kiwi</option>
+              <option value="Botella de Agua">Botella de Agua</option>
+              
             </select>
           </label>
           <input type="submit" value="Submit" />
@@ -38,5 +39,5 @@ class Saborcafe extends Component {
     }
   }
   
-  export default Saborcafe;
+  export default Sodaitaliana;
 

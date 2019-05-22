@@ -1,36 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navegacion from './componentes/Navegacion';
-
-
-import Saborcafe from './componentes/Saborcafe';
-
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Navbar from './componentes/esquema/Navbar'
+import Interfaz from './componentes/interfaz/Interfaz'
+import Funcional from './componentes/Proyectos/Funcional'
+import Entrar from './componentes/autentificacion/Entrar'
+import Registrar from './componentes/autentificacion/Registrar'
 
 
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
-        <div className="App-header">
         
-          <img src={"https://scontent-qro1-1.xx.fbcdn.net/v/t1.15752-9/60247153_407497976749351_2078773268004732928_n.png?_nc_cat=101&_nc_ht=scontent-qro1-1.xx&oh=d622c15bcd2c4126dd985714ffbf8984&oe=5D6B40F1"} className="App-logo" alt="logo" />
-        <Navegacion titulo="Desayuno "/>  
-        <Navegacion titulo="Comida"/>
+          <Navbar />
+        
+        <Switch>
+          <Route path='/' component={Interfaz} />
+          <Route path='/proyectos/:id' component={Funcional} />
+          <Route path='/Entrar' component={Entrar} />
+          <Route path='/Registrar' component={Registrar} />
+        </Switch>
         
         </div>
         
- <div className="cafe">
-  <Saborcafe/>
- 
-</div>
-      
- 
-
-</div>
 
 
-    )
+
+
+
+</BrowserRouter>
+        
+    );
   }
 }
       
