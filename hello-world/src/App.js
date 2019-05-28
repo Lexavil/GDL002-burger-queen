@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css'
-import Home from "./components/Home";
+import Home from "./components/Intro";
 import Comanda from './components/Comanda';
 import Servicio from './components/Servicio';
 import Error from "./components/Error";

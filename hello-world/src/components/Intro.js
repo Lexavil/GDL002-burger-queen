@@ -1,11 +1,12 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import './Intro.css';
 
 
 
 
-function Home() {
+function Intro() {
     return (
         <div >
             <div className='header'>
@@ -32,4 +33,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Intro

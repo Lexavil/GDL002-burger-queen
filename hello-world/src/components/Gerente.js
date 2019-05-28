@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Entrar extends Component {
+export class Gerente extends Component {
     state = {
         email: '',
         password: ''
@@ -18,7 +18,7 @@ export class Entrar extends Component {
         return (
         <div className="container">
          <form onSubmit={this.handleSubmit} className="white">
-           <h5 className="grey-text text-darken-3"> Entrar</h5>
+           <h5 className="button1"> Entrar</h5>
            <div className="input-field">
             <label htmlFor="email"> Correo Electronico</label>
             <input type="email" id="email" onChange={this.handleChange} />
@@ -38,4 +38,4 @@ export class Entrar extends Component {
     }
 }
 
-export default Entrar
+export default Gerente
