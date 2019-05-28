@@ -1,0 +1,229 @@
+.pinWrapper {
+  padding: 1.5em;
+  border: .1em solid #4a284b8f;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  margin: .2em;
+  float: left;
+}
+
+.pinWrapper p {
+  font-size: .8rem;
+}
+
+#pinTerest {
+  max-width: calc(5 * 16rem);
+  min-width: 25em;
+  margin: 0 auto;
+}
+
+.pin {
+  padding: .8rem;
+}
+
+.CreditTitle {
+  border-top: 1px solid #e0e0e0;
+}
+
+.pinImage img {
+  width: 100%;
+}
+
+
+/* FLEXBOX */
+
+#pinTerest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.pinWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 1 calc(50% - 1em);
+}
+
+@media screen and ( min-width:30em) {
+  .pinWrapper {
+    flex: 0 1 calc(33% - 1em);
+  }
+}
+
+@media screen and ( min-width:48em) {
+  .pinWrapper {
+    flex: 0 1 calc(25% - 1em);
+  }
+}
+
+@media screen and ( min-width:62em) {
+  .pinWrapper {
+    flex: 0 1 calc(20% - 1em);
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+
+.cats-all {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-cat {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 10px 20px -15px #000;
+  color: dimgray;
+}
+
+.single-cat > img {
+  width: 100%;
+}
+
+.single-cat > span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  border-radius: 50%;
+  opacity: 0.9;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.single-cat > span:hover {
+  opacity: 1;
+}
+
+.single-cat > span > i {
+  font-size: 1.5em;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+  padding: 3em 5em;
+  
+  
+  color: rgb(134, 7, 7);
+}
+
+.cart > .cart-cats-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart > .cart-cats-wrapper .single-cat {
+  flex: 1 2 45%
+}
+
+.comments {
+  width: 500px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  color: dimgray;
+}
+
+.comments > input {
+  outline: none;
+  font-size: 1.2em;
+  padding: 7px 10px;
+}
+
+.comments > span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  border-radius: 50%;
+  opacity: 0.9;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.comments > div,
+.comments p {
+  margin: 0;
+  padding: 0px;
+}
+
+.comments > div {
+  margin: 15px;
+  padding: 2px;
+  box-shadow: 5px 10px 20px -15px #000;
+}
+
+.rotateBasket {
+  animation-name: rotateBasket;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateBasket {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(45deg);
+  }
+  40% {
+    transform: rotate(-45deg);
+  }
+  60% {
+    transform: rotate(45deg);
+  }
+  80% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media all and (max-width: 900px) {
+  .single-cat {
+    width: 45%;
+  }
+  .cart > .cart-cats-wrapper .single-cat {
+    flex: 1 2 45%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .single-cat {
+    width: 90%;
+  }
+  .cart > .cart-cats-wrapper .single-cat {
+    flex: 1 0 90%;
+  }
+}

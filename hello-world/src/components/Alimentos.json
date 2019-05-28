@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Crêpe Parisienne $ ", "price": "30.00"
+    },
+    {
+        "name": "Crêpe en Salsa Frutos Rojos $ ", "price": "40.00"
+    },
+    {
+        "name":"Crêpe Cacao $ ","price":"47.00"
+    },
+    {
+        "name": "Crêpe en Dulce de leche $ ", "price": "35.00"
+    },
+    {
+        "name": "Ensalada Vittera $ ", "price": "55.00"
+    },
+    {
+        "name": "Ensalada Caesar $ ", "price": "65.00"
+    },
+    {
+        "name": "Ensalada Emiliana $ ", "price": "45.00"
+    },
+    {
+        "name": "Set Mini Hamburguesas $ ", "price": "85.00"
+    },
+    {
+        "name": "Crêpe Vegana $ ", "price":"47.00"
+    },
+    {
+        "name": "Crêpe Celíac $ ", "price":"55.00"
+    },
+    {
+        "name":"Chapata Peñaranda $", "price":"65.00"
+    }
+]

@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
-
-export class Registrar extends Component {
+export class Entrar extends Component {
     state = {
         email: '',
-        password: '',
-        Name: ''
+        password: ''
     }
     handleChange = (e) => {
         this.setState({
@@ -30,10 +28,6 @@ export class Registrar extends Component {
             <input type="password" id="password" onChange={this.handleChange} />
         </div>
         <div className="input-field">
-            <label htmlFor="Name"> ¿Cuál es tu nombre?</label>
-            <input type="Name" id="Name" onChange={this.handleChange} />
-            </div>
-        <div className="input-field">
         <button className="btn pink lighten-1 z-depth-0"> Entrar</button>
         
         
@@ -44,4 +38,4 @@ export class Registrar extends Component {
     }
 }
 
-export default Registrar
+export default Entrar

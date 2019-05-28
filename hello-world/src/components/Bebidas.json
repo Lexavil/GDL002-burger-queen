@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Café Americano   $ ", "price": "25.00"
+    },
+    {
+        "name": "Café Antidepresivo $ ", "price": "37.00"
+    },
+    {
+        "name": "Soda Italiana de Fresa $ ", "price": "25.00"
+    },
+    {
+        "name": "Soda Italiana de Maracuyá $ ", "price": "25.00"
+    },
+    {
+        "name": "Soda Italiana de Durazno $ ", "price": "25.00"
+},
+{
+    "name": "Lechero $ ", "price": "32.00"
+},
+{
+    "name":"Agua sin gas $", "price":"18.00"
+},
+{
+    "name":"Leche Individual $", "price": "13.00"
+},
+{
+    "name":"Leche Individual Chocolate $", "price":"15.00"
+},
+{
+    "name":"Espresso o Espresso macchiato $", "price":"28.00"
+},
+{
+    "name":"Espresso Cortado $", "price":"28.00"
+},
+{
+    "name":"Mate $", "price":"60.00"
+},
+{
+    "name":"Mate Cocido $", "price":"68.00"
+}
+]

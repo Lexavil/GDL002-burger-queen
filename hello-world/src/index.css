@@ -3,79 +3,17 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
   font-family: "Questrial";
-  color: aliceblue;
+  color: rgb(6, 71, 105);
   
 }
-.button {
-  font-family: "Poiret One";
-  background-color: rgb(74, 64, 88); /* Green */
-  border: none;
-  color: white;
-  padding: 2em 4em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5em;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: .5em;
-}
-
-.button1:hover {
-  background-color: rgb(136, 108, 113);
-  color: white;
-}
-
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid rgb(252, 252, 252);
-  border-radius: .5em;
-}
-
-.button2:hover {
-  background-color: rgb(89, 93, 94);
-  color: white;
-}
-
-.button3 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: .5em;
-}
-
-.button3:hover {
-  background-color: rgb(126, 107, 110);
-  color: white;
-}
-
-.button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #ffffff;
-  border-radius: .5em;
-}
-
-.button4:hover {background-color: #4e4d4d;}
-
-.button5 {
-  background-color: white;
-  color: black;
-  border: 2px solid rgb(252, 252, 252);
-  border-radius: .5em;
-}
-
-.button5:hover {
-  background-color: rgb(136, 108, 113);
-  color: white;
-}
+.div{
+  color: #f7f0f660;
+  overflow: hidden;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
