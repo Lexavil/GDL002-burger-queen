@@ -17,7 +17,7 @@ class App extends Component {
         <div >
           <header className="App-header">
               <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.15752-9/60247153_407497976749351_2078773268004732928_n.png?_nc_cat=101&_nc_eui2=AeHT-kkyCt5xeK_nkQzuJ3a0IVVN8k5SjjNBQ0FdpQOU6BSa83_mOk5Tg4NQbRdq39rM5ddgOjoS8adus87j4Pdx9yJpLzeujj3UZBzwxq2UeA&_nc_ht=scontent-dfw5-1.xx&oh=0b3ef48c29b963f92f18dd74640899b1&oe=5D92CDF1" className="App-logo" alt="logo" />
-            <h1 className="App-title">Gestor de Ventas</h1>
+            <h1 className="App-title">La Vitteria</h1>
                </header>
      
           
