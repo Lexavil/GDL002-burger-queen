@@ -1,12 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial|Sacramento|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Questrial|Sacramento|Poiret+One|Assistant');
 .App {
   text-align: center;
 }
 .App-logo{
-  margin:3em;
-  animation: App-logo-spin infinite 25s linear;
-  height: 21em;
-  
+    margin:3em;
+    animation: App-logo-spin infinite 25s linear;
+    height: 21em;
+    transform: matrix(0.994481, -0.104916, 0.104916, -1.00552, 0, 0);
+    margin-top: -2.5em;
+    margin-right: 0px;
+    border: 1px none rgb(0, 0, 0);
+    box-shadow: none;
+    background-color: transparent;
+    opacity: 1;
+    left: 477.901px;
+    position: relative;
+    top: -41.7874px;
+    width: 150px;
+    height: 150px;
+    background-blend-mode: saturation;
+   
 }
 
 .App-header {
@@ -15,7 +28,7 @@
   background: linear-gradient(to right, #9a8478, #ac633767); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
   background-color: rgba(226, 226, 226, 0.932);
   height: 3em;
-  padding: 1em;
+  padding: 4em;
   color: white;
   text-decoration: none;
 }
@@ -46,3 +59,123 @@ display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
+
+
+div:nth-child(1) > div:nth-child(2) {
+ text-align: center;
+ letter-spacing: 2px;
+}
+
+.active {
+ list-style-type: none;
+ text-decoration-line: none;
+ color: rgba(255, 255, 255, 0.99);
+ font-size: 24px;
+ font-weight: bold;
+ font-style: normal;
+ font-family: Assistant;
+ text-align: center;
+ background-blend-mode: normal;
+ border: 1px none rgb(196, 47, 94);
+ box-shadow: rgba(255, 255, 255, 0) 5px 5px 10px 10px;
+ background-color: transparent;
+ opacity: 0.78;
+ top: -36px;
+ position: relative;
+ left: -487.016px;
+}
+
+a:nth-child(2) {
+ font-family: Assistant;
+ font-weight: 500;
+ font-style: normal;
+ font-size: 24px;
+ color: rgb(199, 199, 199);
+ top: -36px;
+ box-shadow: rgba(185, 185, 185, 0) 5px 5px 10px 10px;
+ position: relative;
+ left: -475.14px;
+}
+
+a:nth-child(3) {
+ top: -36px;
+ font-family: Assistant;
+ font-size: 24px;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ font-style: normal;
+ opacity: 0.67;
+ box-shadow: rgba(224, 221, 223, 0) 5px 5px 10px 10px;
+ position: relative;
+ left: 407.124px;
+}
+
+a:nth-child(4) {
+ top: -36px;
+ position: relative;
+ left: 426.75px;
+ font-size: 24px;
+ color: rgb(199, 199, 199);
+ font-weight: bold;
+ font-style: normal;
+ font-family: Assistant;
+ box-shadow: rgba(182, 182, 182, 0) 5px 5px 10px 10px;
+}
+
+.button1 {
+  position: relative;
+  left: -168.75px;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(241, 241, 241);
+  background-color: rgba(136, 108, 113, 0.8);
+  background-blend-mode: normal;
+ }
+ 
+ .button2 {
+  position: relative;
+  left: -226.188px;
+  background-color: rgba(89, 93, 94, 0.8);
+  background-blend-mode: normal;
+ }
+
+ .button3:nth-child(1) > a:nth-child(1) {
+  color: rgb(250, 83, 190);
+  font-size: 24px;
+ }
+ 
+ .single-cat {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-blend-mode: normal;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgba(230, 144, 168, 0.48);
+  box-shadow: none;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 3em;
+  width: 4em;
+  top: -20px;
+  position: relative;
+  left: 6.769em;
+  
+ }
+
+ 
+.pinWrapper {
+  border-style: ridge;
+  text-decoration: none;
+  color: rgb(116, 103, 103);
+  opacity: 1;
+  background-blend-mode: normal;
+  background-color: transparent;
+  border-radius: 15em;
+  height: 4em;
+  width: 19em;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  position: relative;
+  left: 20.4063px;
+ 
+ }
+ 
